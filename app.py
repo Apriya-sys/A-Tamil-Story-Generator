@@ -62,7 +62,7 @@ def generate_paragraph(image_url: str, scene_description: str, paragraph_number:
         return None
 
 # Main app
-st.title("🌟Story Generator in Telugu")
+st.title("🌟Story Generator in Telugu created by Sreevalli ")
 st.write("Generate a story with multiple scenes and images set in Andhra Pradesh!")
 
 # Sidebar for sample examples
