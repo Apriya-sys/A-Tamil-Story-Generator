@@ -49,7 +49,7 @@ def generate_paragraph(image_url: str, scene_description: str, paragraph_number:
     """Generate a single paragraph using Llama model with the image URL"""
     try:
         prompt = f"""Look at this image: {image_url}. 
-        Write a detailed paragraph for part {paragraph_number} of the story based on this scene: {scene_description} in Telugu.
+        Write a detailed paragraph for part {paragraph_number} of the story based on this scene: {scene_description} in Tamil.
         Make sure it flows well with the overall narrative."""
         
         response = client.chat.completions.create(
@@ -62,8 +62,8 @@ def generate_paragraph(image_url: str, scene_description: str, paragraph_number:
         return None
 
 # Main app
-st.title("🌟Story Generator in Telugu created by Sreevalli ")
-st.write("Generate a story with multiple scenes and images set in Andhra Pradesh!")
+st.title("🌟Story Generator in Tamil created by Amudha ")
+st.write("Generate a story with multiple scenes and images set in Tamil Nadu!")
 
 # Sidebar for sample examples
 st.sidebar.header("Sample Examples")
@@ -109,7 +109,7 @@ for topic in sample_topics:
 # Get user input
 topic = st.text_input("What's your story about?", placeholder="e.g., A magical adventure in a forest", value=st.session_state.get('topic', ''))
 # Remove language selection and set to Telugu
-language = "Telugu"  # Set language to Telugu directly
+language = "Tamil"  # Set language to Tamil directly
 # Remove the slider and set a fixed number of paragraphs
 num_paragraphs = 5  # Fixed to 5 paragraphs
 
@@ -131,7 +131,7 @@ if st.button("Generate Story", type="primary"):
                     for i, scene in enumerate(scene_descriptions, 1):
                         
                         # Generate image for this scene using the scene description
-                        image, image_url = generate_image(f"A scene depicting: {scene} in Andhra Pradesh")  # Updated prompt
+                        image, image_url = generate_image(f"A scene depicting: {scene} in Tamilnadu")  # Updated prompt
                         
                         if image and image_url:
                             # Display image
