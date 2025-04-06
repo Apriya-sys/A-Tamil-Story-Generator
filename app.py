@@ -90,15 +90,21 @@ sample_topics = [
     "A magical school for young wizards",
     "An epic quest to find a lost artifact",
     "A rivalry between two kingdoms",
-    "A mysterious disappearance in a small town",
-    "A journey through the vibrant streets of Hyderabad",
+    "A mysterious disappearance in a small temple town madurai",
+    "A journey through the vibrant streets of trichy",
     "A tale of friendship in a small village",
-    "An adventure in the hills of Araku Valley",
+    "An adventure in the hills of kolli hills"
     "A story of love blossoming during a festival",
-    "A quest to uncover ancient secrets in Amaravati",
-    "A thrilling chase through the markets of Visakhapatnam",
-    "A magical encounter with a sage in Tirupati",
-    "A journey to the historic ruins of Hampi",
+    "A quest to uncover ancient secrets in cauvery",
+    "A thrilling chase through the markets of madurai",
+    "A magical encounter with a sage in srirangam",
+    "A journey to the historic ruins of tanjore",
+    "Sangam Era Poet Quests – – A wandering poet's journey through ancient Tamilakam",
+    "Madurai Meenakshi Legend – Mythical retelling of the divine queen and her court",
+    "Kanchipuram & the Sacred Thread – A boy’s spiritual journey in a temple town",
+    "Monsoon in Kodaikanal – A love story or mystery in the misty hills",
+    "Startup Dreams in Chennai – A techie from Trichy tries to make it in the big city",
+    "The Talking Ganesha of Pillayarpatti – A divine idol gives life lessons to a naughty boy"
 ]
 
 # Create buttons for each sample topic
