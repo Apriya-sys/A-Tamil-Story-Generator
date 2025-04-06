@@ -1,1 +1,1 @@
-# A-Telugu-Story-Generator
+# A-Tamil-Story-Generator
