@@ -108,7 +108,7 @@ for topic in sample_topics:
 
 # Get user input
 topic = st.text_input("What's your story about?", placeholder="e.g., A magical adventure in a forest", value=st.session_state.get('topic', ''))
-# Remove language selection and set to Telugu
+# Remove language selection and set to Tamil
 language = "Tamil"  # Set language to Tamil directly
 # Remove the slider and set a fixed number of paragraphs
 num_paragraphs = 5  # Fixed to 5 paragraphs
